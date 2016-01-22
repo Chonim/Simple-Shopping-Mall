@@ -1,0 +1,49 @@
+@CHARSET "EUC-KR";
+
+.body{
+	/*  background:#blue -ms-linear-gradient(top, #blue, #fff); 
+  	 background:#3EAF0E -webkit-linear-gradient(top, #3EAF0E, #fff);
+	 background:#3EAF0E -moz-ms-gradient(top, #3EAF0E, #fff); 
+	 background:#3EAF0E -o-ms-gradient(top, #3EAF0E, #fff); 
+	 filter:progid:DXImageTransform.Microsoft.gradient(startColorStr=#blue, endColorStr=#ffffff") */
+}
+
+h2 {
+
+	}
+
+/* 메인화면 */
+td.dyna:hover{background-color:ghostwhite;}
+td.dyna:focus{background-color:oldlace;}
+
+/* 게시판 내용*/
+tr.dyna:hover{background-color:ghostwhite;}
+tr.dyna:focus{background-color:cyan;}
+
+A:hover {color:#009900; text-decoration:none; border-bottom; dotted #009900 1px;}
+
+/* 클릭했을 때 */
+/* input.bold:focus{font-wieght:bold;} */
+
+input {
+	{font-wieght:bold;}
+}
+
+*[img] {
+	
+	.iPhoneText{ top:0 !important;}
+	
+	style="position:absolute; top:40px; top:70px; left:100%; font-size:70px; font-weight:bold; white-space:nowrap; 
+	-o-transform:rotate(90deg); 
+	-o-transform-origin:0 100%; 
+	-ms-transform:rotate(90deg); 
+	-ms-transform-origin:0 100%; 
+	-ms-transform:rotate(90deg); 
+	-ms-transform-origin:0 100%; text-shadow:0 0 10px #666; 
+	filter:progid:DXImageTransform.Microsoft.Matrix(M11=6.123031769111886e-17, M12=-1, M21=1, M22=6.123031769111886e-17, sizingmethod='auto expand');
+	
+}
+
+/* 마지막 줄 */
+#footer {width:800px; height:200px; clear:both;}
+
